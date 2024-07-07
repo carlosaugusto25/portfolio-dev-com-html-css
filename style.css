@@ -1,0 +1,207 @@
+body {
+    margin: 0 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070f18;
+    margin: 40px 0;
+}
+
+#menu {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #070f18;
+}
+
+a{
+    color: #070f18;
+    text-decoration: none;
+}
+
+#header-cta h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+#hader-img {
+    margin: 0 0 0 40px;
+}
+
+#header-img img{
+    width: 100%;
+}
+
+#button-cta {
+    background-color: #1f7cff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.enterprise-logo {
+    text-align: center;
+}
+
+#clients {
+    margin: 50px 0;
+}
+
+#client-text {
+    font-family: Poppins;
+    font-size: normal;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 16px;
+    color: #070f18;
+}
+
+h3.red {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f75c4e;
+    margin-bottom: 0;
+}
+
+h1.black {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#services .text-center h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070f18;
+}
+
+#services {
+    text-align: center;
+}
+
+p.gray {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#contact-img {
+    width: 400px;
+}
+
+#contact-img img {
+    width: 400px;
+}
+
+#contact-form {
+    margin-left: 40px;
+    text-align: left;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contact-form input {
+    border-radius: 50px;
+    background-color: #f5f6fb;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+}
+
+#contact-form button {
+    background-color: #1f7cff;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    margin-top: 20px;
+}
+
+#title-portfolio {
+    margin-top: 150px;
+}
+
+.portfolio-img {
+    padding: 20px;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+
+
+
